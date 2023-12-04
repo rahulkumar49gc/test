@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+ table,td,th{
+        border: 3px solid red;
+        border-collapse: collapse;
+        text-align: center;
+    }
+</style>
+<body>
+    <h2>Table Tag in HTML</h2>
+    <!-- <table>
+        <tr>
+            <td>Name</td>
+            <td>Course</td>
+            <td>UID</td>
+        </tr>
+        <tr>
+            <td>Rahul</td>
+            <td>HTML</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>Rohit</td>
+            <td>CSS</td>
+            <td>22</td>
+        </tr>
+        <tr>
+            <td>Akshay</td>
+            <td>JAVA</td>
+            <td>45</td>
+        </tr>
+    </table> -->
+
+    <!-- <table>
+        <tr>
+            <th>Name</th>
+            <th>Course</th>
+            <th>UID</th>
+        </tr>
+        <tr>
+            <td>Rahul</td>
+            <td>HTML</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>Rohit</td>
+            <td>CSS</td>
+            <td>22</td>
+        </tr>
+        <tr>
+            <td>Akshay</td>
+            <td>JAVA</td>
+            <td>45</td>
+        </tr>
+    </table> -->
+
+    <table>
+        <caption><b>Student Data</b></caption>
+        <thead>
+            <tr>
+            <th>Name 1</th>
+            <th>Course 1</th>
+            <th>Marks 1</th>
+        </tr>
+    </thead>
+        <thead>
+            <tr>
+            <th>Name</th>
+            <th>Course</th>
+            <th>Marks</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Rahul</td>
+            <td rowspan="2">HTML</td>
+            <td>35</td>
+        </tr>
+        <tr>
+         <td>Rohit</td>
+         <!-- <td>CSS</td> -->
+         <td>40</td>
+        </tr>
+        <tr>
+            <td>Akshay</td>
+            <td>JS</td>
+            <td>45</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="2">Total</td>
+            <td>120</td>
+        </tr>
+    </tfoot>
+    <tfoot>
+        <tr>
+            <td colspan="2">Salary</td>
+            <td>50000</td>
+        </tr>
+    </tfoot>
+    </table>
+</body>
+</html>
